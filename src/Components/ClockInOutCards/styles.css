@@ -1,0 +1,23 @@
+.absolute-overflow-container {
+	position: absolute;
+	top: 80px;
+	right: 40px;
+	overflow-y: scroll;
+	z-index: 99;
+}
+.absolute-overflow-container::-webkit-scrollbar {
+	display: none;
+}
+.clock-in-out-card {
+	width: 300px;
+	background-color: rgb(255, 255, 255);
+	box-shadow: 1px 2px 3px 1px rgb(179, 172, 172);
+}
+@media screen and (max-width: 426px) {
+	.absolute-overflow-container {
+		top: 60%;
+	}
+	.clock-in-out-card {
+		width: 80%;
+	}
+}
