@@ -33,7 +33,10 @@ const PinPointModal = (props: ModalProps) => {
 			backdrop="static"
 			size="sm"
 			centered>
-			<form className="form-section p-4" onSubmit={submitPinPointForm}>
+			<form style={{
+				backgroundColor:"black",
+				color:'red'
+			}} className="form-section p-4" onSubmit={submitPinPointForm}>
 				<Modal.Header closeButton>
 					<h4 className="fw-bold fs-4">Pin Point</h4>
 				</Modal.Header>
